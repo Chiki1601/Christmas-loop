@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+body {
+  background-color: #fff0da;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+svg {
+  width: 70%;
+  max-width: 800px;
+}
+
+svg #year text {
+  text-shadow: 0 8px 28px hsla(29, 49%, 7%, 0.03);
+}
+
+/* svg g#year, */
+svg path#pathTop1,
+svg path#pathTop2,
+svg path#pathTop3,
+svg path#pathBottom {
+  display: none;
+}
